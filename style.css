@@ -7,12 +7,26 @@ body{
 h2,h3,h4,h5,h6{
     font-family: 'Roboto', sans-serif;
 }
+.hr-style
+{
+    border: 5px dotted white;
+    border-bottom: none;
+     margin: auto;
+    width: 100px;
+}
+
+
+/* headerStart */
 header{
     background-image: url("img/banner2.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+}
+nav{
+    background: rgba(43, 42, 41, 0.5);
+
 }
 .navfocus:focus{
     box-shadow: none;
@@ -38,6 +52,7 @@ header{
 .banner_main{
     height: 100vh;
 }
+
 .banner_main h1{
     font-size: 3.4rem;
     /* background-image: linear-gradient(315deg, #5c6e6e 0%, #43683b 74%); */
@@ -45,6 +60,32 @@ header{
     border-radius: 5px;
     font-family: 'Handlee', cursive;
 }
-main{
+
+/* main{
     height: 100vh;
+} */
+
+
+/* main */
+.features_div{
+    transition: 0.5s;
+    cursor: pointer;
+}
+.features_div:hover{
+    transform: scale(1.08);
+
+}
+
+
+
+/* about_details */
+
+.personal p{
+    margin-bottom: 2px;
+}
+
+/* skills*/
+.skills tr td span{
+    margin-left: 20px;
+    color: #ceb900;
 }
