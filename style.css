@@ -89,3 +89,11 @@ nav{
     margin-left: 20px;
     color: #ceb900;
 }
+.card{
+    border: none;
+}
+.card-p{
+    padding: 2%;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
