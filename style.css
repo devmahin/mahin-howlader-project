@@ -91,9 +91,20 @@ nav{
 }
 .card{
     border: none;
+    transition: .4s;
+}
+.card:hover{
+    transform: scale(1.04);
 }
 .card-p{
     padding: 2%;
     border: 1px solid gray;
     border-radius: 5px;
+}
+/* carusel */
+/* .carusel{
+    margin-top: 10%;
+} */
+.carousel-item{
+    padding: 5% 10%;
 }
